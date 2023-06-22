@@ -78,6 +78,11 @@
   width: 1000px;
 }
 
+.video_inicio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /*-----------------------------Productos-------------------------------*/
 .titulo_productos{
   text-align: center;
