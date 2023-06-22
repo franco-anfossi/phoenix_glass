@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Phoenix Glass</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
+  </head>
+
+  <body>
+  <header>
+    <ul class="nav">
+      <li class="opt"><%= link_to "Contacto", :contactos %></li>
+      <li class="opt"><%= link_to "Nosotros", :nosotros %></li>
+      <li class="opt"><%= link_to "Modelo de Negocio", :negocios %></li>
+      <li class="opt"><%= link_to "Producto", :productos %></li>
+      <li class="opt"><%= link_to "Inicio", :inicios %></li>
+      <li class="logo"><%= image_tag("logo/logo.png", width: "60px")%></li>
+    </ul>
+    </header>
+    <%= yield %>
+  </body>
+</html>

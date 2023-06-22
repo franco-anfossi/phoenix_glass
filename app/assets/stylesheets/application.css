@@ -1,0 +1,120 @@
+/*----------------------------NAVEGACION----------------------------*/
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    box-shadow: 1px 16px 33px -15px rgba(0,0,0,0.19);
+    -webkit-box-shadow: 1px 16px 33px -15px rgba(0,0,0,0.19);
+    -moz-box-shadow: 1px 16px 33px -15px rgba(0,0,0,0.19);
+    font-size: 20px;
+  }
+  
+.opt {
+    float: right;
+}
+
+.opt a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 26px 26px;
+    text-decoration: none;
+}
+
+.opt a:hover {
+    background-color: #eeeeee;
+}
+
+.logo {
+    float: left;
+    padding: 10px 10px;
+}  
+
+.logo a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+}
+  
+/*
+  .titulo {
+    float: left;
+    margin-top: 6px;
+    font-size: 30px;
+  }
+  
+  .titulo a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  } 
+*/
+
+
+/*-------------------------------Inicio--------------------------------*/
+.titulo_inicio{
+  text-align: center;
+  font-size: 50px;
+}
+
+.contenedor_inicio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.def_inicio {
+  align-self: center;
+  text-align: justify;
+  font-size: 20px;
+  width: 1000px;
+}
+
+/*-----------------------------Productos-------------------------------*/
+.titulo_productos{
+  text-align: center;
+  font-size: 50px;
+}
+
+.def_productos {
+  text-align: center;
+  font-size: 20px;
+}
+
+/*-------------------------Modelo de Negocio---------------------------*/
+.titulo_modelo{
+  text-align: center;
+  font-size: 50px;
+}
+
+.contenedor_modelo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.def_modelo {
+  align-self: center;
+  text-align: justify;
+  font-size: 20px;
+  width: 1000px;
+}
+/*------------------------------Nosotros-------------------------------*/
+.titulo_nosotros{
+  text-align: center;
+  font-size: 50px;
+}
+
+.def_nosotros {
+  text-align: center;
+  font-size: 20px;
+}
+/*------------------------------Contacto-------------------------------*/
