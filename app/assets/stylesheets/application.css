@@ -41,26 +41,9 @@
     text-align: center;
     padding: 14px 16px;
 }
-  
-/*
-  .titulo {
-    float: left;
-    margin-top: 6px;
-    font-size: 30px;
-  }
-  
-  .titulo a {
-    display: block;
-    color: #000000;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  } 
-*/
-
 
 /*-------------------------------Inicio--------------------------------*/
-.titulo_inicio{
+.titulo_inicio {
   text-align: center;
   font-size: 50px;
 }
@@ -95,7 +78,7 @@
 }
 
 /*-------------------------Modelo de Negocio---------------------------*/
-.titulo_modelo{
+.titulo_modelo {
   text-align: center;
   font-size: 50px;
 }
@@ -113,13 +96,42 @@
   width: 1000px;
 }
 /*------------------------------Nosotros-------------------------------*/
-.titulo_nosotros{
+.titulo_nosotros {
   text-align: center;
   font-size: 50px;
 }
 
-.def_nosotros {
-  text-align: center;
-  font-size: 20px;
+.contenedor_nosotros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-/*------------------------------Contacto-------------------------------*/
+
+.tarjeta_nosotros {
+  margin-left: 30px;
+  margin-right: 40px;
+  width: 300px;
+  height: 350px;
+  box-shadow: 0px 0px 53px -16px rgba(0,0,0,0.75);
+  background-color: #ffffff;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.fotos_nosotros img {
+  border-radius: 200px;
+  margin-top: 45px;
+}
+
+.contenedor_fotos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.def_nosotros {
+  align-self: center;
+  text-align: justify;
+  font-size: 20px;
+  width: 1000px;
+}
