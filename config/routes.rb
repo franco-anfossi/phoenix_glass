@@ -1,7 +1,6 @@
 Rails.application.routes.draw do
   root "inicios#index"
   resources :productos
-  resources :contactos
   resources :nosotros
   resources :negocios
   resources :inicios
