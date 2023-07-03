@@ -8,16 +8,29 @@
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
+    <script>
+      function myFunction() {
+        var x = document.getElementsByClassName("nav")[0];
+        if (x.className === "nav") {
+          x.className += " responsive";
+        } else {
+          x.className = "nav";
+        }
+      }
+    </script>
   </head>
 
   <body>
   <header>
     <ul class="nav">
+      <li class="icon">
+        <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+      </li>
+      <li class="logo"><%= image_tag("logo/logo.png", width: "60px")%></li>
       <li class="opt"><%= link_to "Nosotros", :nosotros %></li>
       <li class="opt"><%= link_to "Modelo de Negocio", :negocios %></li>
       <li class="opt"><%= link_to "Producto", :productos %></li>
       <li class="opt"><%= link_to "Inicio", :inicios %></li>
-      <li class="logo"><%= image_tag("logo/logo.png", width: "60px")%></li>
     </ul>
     </header>
     <%= yield %>
