@@ -253,6 +253,35 @@
   font-size: 20px;
   width: 1000px;
 }
+/* Estilos para pantallas menores a 1024px */
+@media (max-width: 1024px) {
+  .def_modelo {
+    width: 90%;  /* O ajusta este valor a lo que te funcione mejor */
+    font-size: 20px;
+  }
+}
+
+/* Estilos para pantallas menores a 768px */
+@media (max-width: 768px) {
+  .def_modelo {
+    font-size: 20px; /* Ajusta el tamaño de fuente */
+  }
+
+  .titulo_modelo {
+    font-size: 50px; /* Ajusta el tamaño de título */
+  }
+}
+
+/* Estilos para pantallas menores a 480px */
+@media (max-width: 480px) {
+  .def_modelo {
+    font-size: 18px; /* Ajusta el tamaño de fuente */
+  }
+
+  .titulo_modelo {
+    font-size: 40px; /* Ajusta el tamaño de título */
+  }
+}
 /*------------------------------Nosotros-------------------------------*/
 .titulo_nosotros {
   text-align: center;
@@ -294,6 +323,46 @@
   text-align: justify;
   font-size: 20px;
   width: 1000px;
+}
+
+@media (max-width: 1024px) {
+  .def_nosotros {
+    width: 90%;  /* O ajusta este valor a lo que te funcione mejor */
+    font-size: 20px;
+  }
+}
+
+/* Estilos para pantallas menores a 768px */
+@media (max-width: 768px) {
+  .def_nosotros {
+    font-size: 20px; /* Ajusta el tamaño de fuente */
+  }
+
+  .titulo_nosotros {
+    font-size: 50px; /* Ajusta el tamaño de título */
+  }
+
+  .contenedor_fotos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .tarjeta_nosotros {
+    margin-bottom: 40px;
+  }
+}
+
+/* Estilos para pantallas menores a 480px */
+@media (max-width: 480px) {
+  .def_nosotros {
+    font-size: 18px; /* Ajusta el tamaño de fuente */
+  }
+
+  .titulo_nosotros {
+    font-size: 40px; /* Ajusta el tamaño de título */
+  }
 }
 
 /*------------------------------ Otros -------------------------------*/
